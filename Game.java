@@ -57,12 +57,12 @@ public class Game {
             System.out.println();
 
             // draw cards
-            // player.hit(playingDeck);
+            player.hit(playingDeck);
             dealer.hit(playingDeck);
-            // player.hit(playingDeck);
+            player.hit(playingDeck);
             dealer.hit(playingDeck);
 
-            player.setHand(new Card(Suit.SPADE, Rank.TEN), new Card(Suit.SPADE, Rank.TEN));
+            // player.setHand(new Card(Suit.SPADE, Rank.TEN), new Card(Suit.SPADE, Rank.TEN));
 
             // print dealer hand
             dealer.printFirstHand();
