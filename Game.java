@@ -195,7 +195,7 @@ public class Game {
                 // player has blackjack and wins
                 else if(!dealer.hasBlackjack() && player.hasBlackjack()) {
                     System.out.println(winCases[4]);
-                    player.betPayout(true, true);
+                    player.betPayout(true, false);
                 }
 
                 // non-blackjack cases
