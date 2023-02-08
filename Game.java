@@ -5,9 +5,9 @@ public class Game {
         String[] winCases = {
             "CASE 1: Player has natural blackjack. Player wins (3:2 Payout)",
             "CASE 2: Player and Dealer have natural blackjack. Tie",
-            "CASE 3: Player and Dealer have blackjack. Tie",
-            "CASE 4: Dealer has blackjack. Dealer wins",
-            "CASE 5: Player has blackjack. Player wins (3:2 Payout)",
+            "CASE 3: Player and Dealer have 21. Tie",
+            "CASE 4: Dealer has 21. Dealer wins",
+            "CASE 5: Player has 21. Player wins",
             "CASE 6: Player busts. Dealer wins",
             "CASE 7: Dealer busts. Player wins",
             "CASE 8: Player and Dealer have the same hand value. Tie",
